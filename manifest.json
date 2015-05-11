@@ -11,7 +11,7 @@
         {
         "matches" : [ "http://direct.yandex.ru/*", "https://direct.yandex.ru/*" ],
         }
-    ]
+    ],
     "background": {
         "scripts": [ "script.js" ]
     }
