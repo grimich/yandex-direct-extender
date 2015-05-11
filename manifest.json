@@ -9,7 +9,7 @@
 
     "content_scripts" : [
         {
-        "matches" : [ "http://direct.yandex.ru/*", "https://direct.yandex.ru/*" ],
+        "matches" : [ "http://direct.yandex.ru/*", "https://direct.yandex.ru/*" ]
         }
     ],
     "background": {
