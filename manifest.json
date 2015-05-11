@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+
+    "name": "Direct.Yandex Extender",
+    "version": "1.0",
+
+        "permissions": [
+            "https://direct.yandex.ru/*","http://direct.yandex.ru/*"
+        ],
+  
+  "content_scripts" : [
+    {
+      "matches" : [
+        "http://direct.yandex.ru/*",
+        "https://direct.yandex.ru/*"
+      ],
+      "js" : ["script.js"]
+	  	  
+    }
+  ]
+  
+}
