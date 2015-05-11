@@ -1,2 +1,2 @@
 # yandex-direct-extender
-Adds some buttons to improve UI
+Adds some buttons to improve UI of direct.yandex.ru
