@@ -1,13 +1,11 @@
 {
-    "version": "3",
+    "version": "4",
 	
 	"manifest_version": 2,
 
     "name": "Direct.Yandex Extender",
 
-    "default_locale": "ru",
-    
-	"description": "Adds buttons to Yandex.Direct",
+    "description": "Adds buttons to Yandex.Direct",
 
     "permissions": [ "activeTab", "https://direct.yandex.ru/*", "http://direct.yandex.ru/*" ],
 
@@ -24,5 +22,5 @@
             "19": "i/38.png"
         },
         "default_title": "Direct.Extender"
-    }  
+    }
 }
