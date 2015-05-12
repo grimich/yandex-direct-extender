@@ -3,9 +3,9 @@
 
     "name": "Direct.Yandex Extender",
 
-    "version": "2",
+    "version": "3",
 
-    "permissions": [ "https://direct.yandex.ru/*", "http://direct.yandex.ru/*" ],
+    "permissions": [ "activeTab", "https://direct.yandex.ru/*", "http://direct.yandex.ru/*" ],
 
     "content_scripts" : [
         {
@@ -14,5 +14,11 @@
     ],
     "background": {
         "scripts": [ "background.js" ]
-    }
+    },
+    "page_action": {
+        "default_icon": {
+        "19": "i/38.png"
+        },
+        "default_title": "Direct.Extender"
+    }  
 }
