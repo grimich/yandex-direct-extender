@@ -1,5 +1,5 @@
 {
-    "version": "4",
+    "version": "5",
 	
 	"manifest_version": 2,
 
@@ -9,11 +9,6 @@
 
     "permissions": [ "activeTab", "https://direct.yandex.ru/*", "http://direct.yandex.ru/*" ],
 
-    "content_scripts" : [
-        {
-        "matches" : [ "http://direct.yandex.ru/*", "https://direct.yandex.ru/*" ]
-        }
-    ],
     "background": {
         "scripts": [ "background.js" ]
     },
