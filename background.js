@@ -1,9 +1,6 @@
-chrome.tabs.onUpdated.addListener(function checkForValidUrl(tabId, changeInfo, tab) {
-	if (tab.url.indexOf('direct.yandex') > -1 && tab.url.match(/\/registered\/main/)) {
-	chrome.pageAction.show(tabId);
+chrome.webNavigation.onCompleted.addListener(function (data) {
+	if (data.url.indexOf('direct.yandex') > -1 && data.url.match(/\/registered\/main/)) {
+	chrome.tabs.executeScript({file: "script.js"});
+	chrome.pageAction.show(data.tabId);
 	};
-});
-
-chrome.webNavigation.onCompleted.addListener(function(tab) {
-	chrome.tabs.executeScript(tab.id, {file: "script.js"});
 });

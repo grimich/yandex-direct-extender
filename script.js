@@ -45,13 +45,12 @@ if (location.href.match(/cmd=showCamp/) && location.href.match(/cid=/)) {
 }
 
 else if (location.href.match(/cmd=showCamps/) && location.href.match(/ulogin=/)) {
-	console.log('Мы на странице всех кампаний, щас покажем кнопочки к каждой');
+//	console.log('Мы на странице всех кампаний, щас покажем кнопочки к каждой');
 }
 else if (location.href.match(/cmd=transfer/) && location.href.match(/ulogin=/)){
-	console.log('Мы на странице переноса денег, тут будет два текстовых поля с выборкой кампаний');
+//	console.log('Мы на странице переноса денег, тут будет два текстовых поля с выборкой кампаний');
 }
-else
-{alert('wtf')};
+
 
 //https://direct.yandex.ru/pages/transfer/_transfer-1396884891.js
 
