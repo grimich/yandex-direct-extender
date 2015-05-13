@@ -1,13 +1,13 @@
 {
-    "version": "5",
+    "version": "8",
 	
 	"manifest_version": 2,
 
     "name": "Direct.Yandex Extender",
 
-    "description": "Adds buttons to Yandex.Direct",
+    "description": "Adds some buttons to Yandex.Direct",
 
-    "permissions": [ "activeTab", "https://direct.yandex.ru/*", "http://direct.yandex.ru/*" ],
+    "permissions": [ "webNavigation", "tabs", "https://direct.yandex.ru/*", "http://direct.yandex.ru/*" ],
 
     "background": {
         "scripts": [ "background.js" ]
